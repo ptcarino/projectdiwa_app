@@ -1,4 +1,4 @@
-package com.teamcipher.ptcarino.projectdiwa_app.app;
+package com.teamcipher.ptcarino.projectdiwa.app;
 
 /**
  * Created by ptcarino on 12/13/2015.
