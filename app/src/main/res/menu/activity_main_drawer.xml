@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_maps"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_infobulletin"
+            android:title="Info Bulletin" />
+        <item
+            android:id="@+id/nav_helpline"
+            android:title="Helpline" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
