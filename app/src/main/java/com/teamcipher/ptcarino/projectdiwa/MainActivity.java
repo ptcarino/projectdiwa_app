@@ -131,9 +131,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_profile) {
-            Intent profile = new Intent(this, MainActivity.class);
-            startActivity(profile);
-            finish();
+            onBackPressed();
         } else if (id == R.id.nav_maps) {
             Intent maps = new Intent(this, MapsActivity.class);
             startActivity(maps);
