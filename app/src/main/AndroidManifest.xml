@@ -57,6 +57,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.teamcipher.ptcarino.projectdiwa.MainActivity" />
         </activity>
+        <activity android:name="com.teamcipher.ptcarino.projectdiwa.InfoBulletinActivity"></activity>
     </application>
 
 </manifest>

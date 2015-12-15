@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity
         // Fetching user details from sqlite
         HashMap<String, String> user = db.getUserDetails();
 
-        String name = user.get("name");
+        String name = user.get("username");
         String email = user.get("email");
 
         // Displaying the user details on the screen
@@ -137,7 +137,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(maps);
             finish();
         } else if (id == R.id.nav_infobulletin) {
-
+            Intent infobulletin = new Intent(this, InfoBulletinActivity.class);
+            startActivity(infobulletin);
+            finish();
         } else if (id == R.id.nav_helpline) {
 
         } else if (id == R.id.nav_settings) {

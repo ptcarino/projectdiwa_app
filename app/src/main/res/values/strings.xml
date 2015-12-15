@@ -2,14 +2,13 @@
     <string name="app_name">Project DIWA</string>
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
-    <string name="hint_name">Fullname</string>
+    <string name="hint_username">Username</string>
     <string name="btn_login">LOGIN</string>
     <string name="btn_register">REGISTER</string>
     <string name="btn_link_to_register">Not a member? Sign up now.</string>
     <string name="btn_link_to_login">Already registred! Login Me.</string>
     <string name="welcome">Welcome</string>
     <string name="btn_logout">LOGOUT</string>
-    <string name="name">Fullname</string>
     <string name="title_activity_main">Profile</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -17,4 +16,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_info_bulletin">Info Bulletin</string>
 </resources>
