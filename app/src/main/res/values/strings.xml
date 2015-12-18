@@ -18,4 +18,6 @@
     <string name="title_activity_maps">Map</string>
 
     <string name="title_activity_info_bulletin">Info Bulletin</string>
+
+    <string name="title_activity_helpline">HelpLine</string>
 </resources>

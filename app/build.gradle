@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.teamcipher.ptcarino.trial"
-        minSdkVersion 10
+        minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -26,4 +26,5 @@ dependencies {
     compile 'com.mcxiaoke.volley:library-aar:1.0.0'
     compile 'com.android.support:design:23.1.1'
     compile 'com.google.android.gms:play-services:8.3.0'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
 }

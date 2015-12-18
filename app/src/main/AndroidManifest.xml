@@ -18,11 +18,12 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:name="com.teamcipher.ptcarino.projectdiwa.app.AppController"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_projectdiwa_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -57,7 +58,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.teamcipher.ptcarino.projectdiwa.MainActivity" />
         </activity>
-        <activity android:name="com.teamcipher.ptcarino.projectdiwa.InfoBulletinActivity"></activity>
+        <activity
+            android:name="com.teamcipher.ptcarino.projectdiwa.InfoBulletinActivity"
+            android:label="Info Bulletin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.teamcipher.ptcarino.projectdiwa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.teamcipher.ptcarino.projectdiwa.HelplineActivity"
+            android:label="HelpLine">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.teamcipher.ptcarino.projectdiwa.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

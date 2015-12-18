@@ -139,9 +139,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_infobulletin) {
             Intent infobulletin = new Intent(this, InfoBulletinActivity.class);
             startActivity(infobulletin);
-            finish();
         } else if (id == R.id.nav_helpline) {
-
+            Intent helpline = new Intent(this, HelplineActivity.class);
+            startActivity(helpline);
         } else if (id == R.id.nav_settings) {
 
         } else if (id == R.id.nav_logout) {

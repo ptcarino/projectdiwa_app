@@ -3,6 +3,7 @@ package com.teamcipher.ptcarino.projectdiwa.helper;
 /**
  * Created by ptcarino on 12/13/2015.
  */
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -23,10 +24,10 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     // Database Name
     private static final String DATABASE_NAME = "projectdiwa";
 
-    // Login table name
-    private static final String TABLE_ACCOUNT = "ACCOUNT";
+    // Table names
+    private static final String TABLE_ACCOUNT = "accounts";
 
-    // Login Table Columns names
+    // Column names
     private static final String KEY_ID = "id";
     private static final String KEY_USERNAME = "username";
     private static final String KEY_EMAIL = "email";
@@ -60,7 +61,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
     /**
      * Storing user details in database
-     * */
+     */
     public void addUser(String username, String email, String id, String created_at) {
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -78,7 +79,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
     /**
      * Getting user data from database
-     * */
+     */
     public HashMap<String, String> getUserDetails() {
         HashMap<String, String> user = new HashMap<String, String>();
         String selectQuery = "SELECT  * FROM " + TABLE_ACCOUNT;
@@ -102,7 +103,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
     /**
      * Re crate database Delete all tables and create them again
-     * */
+     */
     public void deleteUsers() {
         SQLiteDatabase db = this.getWritableDatabase();
         // Delete All Rows
